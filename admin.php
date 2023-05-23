@@ -33,10 +33,10 @@
 </head>
 <body>
     <?php
-    $host = "localhost";
-    $username = "root";
+    $host = "";
+    $username = "";
     $password = "";
-    $dbname = "rol";
+    $dbname = "";
 
     $conn = new mysqli($host, $username, $password, $dbname);
     if ($conn->connect_error) {
